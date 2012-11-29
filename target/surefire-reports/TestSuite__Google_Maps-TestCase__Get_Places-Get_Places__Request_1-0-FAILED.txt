@@ -1,0 +1,99 @@
+Status: FAILED
+Time Taken: 159
+Size: 1916
+Timestamp: Sun Nov 18 18:39:34 CST 2012
+TestStep: Get Places - Request 1
+
+----------------- Messages ------------------------------
+[Check Country] No such property: info for class: org.apache.log4j.Logger
+
+----------------- Properties ------------------------------
+StatusCode: 200
+Method: GET
+HTTP Version: HTTP/1.1
+Endpoint: http://maps.googleapis.com
+URL: http://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=1600%20Amphitheatre%20Parkway%2C%20Mountain%20View%2C%20CA%0A%09%09%09%09%09
+
+---------------- Request ---------------------------
+Host: [maps.googleapis.com]
+Accept-Encoding: [gzip,deflate]
+User-Agent: [Jakarta Commons-HttpClient/3.1]
+
+- missing request / garbage collected -
+
+---------------- Response --------------------------
+X-Frame-Options: [SAMEORIGIN]
+Transfer-Encoding: [chunked]
+Vary: [Accept-Language]
+Date: [Mon, 19 Nov 2012 00:39:34 GMT]
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [1; mode=block]
+Expires: [Tue, 20 Nov 2012 00:39:34 GMT]
+Content-Type: [application/json; charset=UTF-8]
+Server: [mafe]
+Cache-Control: [public, max-age=86400]
+
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "1600",
+               "short_name" : "1600",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Amphitheatre Pkwy",
+               "short_name" : "Amphitheatre Pkwy",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Mountain View",
+               "short_name" : "Mountain View",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Santa Clara",
+               "short_name" : "Santa Clara",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "94043",
+               "short_name" : "94043",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 37.42208060,
+               "lng" : -122.0845760
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 37.42342958029150,
+                  "lng" : -122.0832270197085
+               },
+               "southwest" : {
+                  "lat" : 37.42073161970850,
+                  "lng" : -122.0859249802915
+               }
+            }
+         },
+         "types" : [ "street_address" ]
+      }
+   ],
+   "status" : "OK"
+}
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="1" time="183.718" errors="1" skipped="0" tests="2" name="com.varun.test.SeleniumTest.GiftCatalogTest">
+<testsuite failures="0" time="0.002" errors="0" skipped="1" tests="1" name="com.varun.test.SeleniumTest.GiftCatalogTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\bin"/>
@@ -19,7 +19,7 @@
     <property name="basedir" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter7108212738491691685.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter109365771527178096.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\Varun\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 7"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files (x86)\HP SimplePass 2012\x64;C:\Program Files (x86)\HP SimplePass 2012\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\12.0\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files\Broadcom\WHL\SysWow64\;C:\Program Files\Broadcom\WHL\SysWow64\syswow64;C:\Program Files (x86)\Intel\Services\IPT\;c:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Java\jdk1.6.0_31\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\cygwin\bin;C:\cygwin\usr\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;."/>
-    <property name="surefire.test.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\test-classes;C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\classes;C:\Users\Varun\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\Varun\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Varun\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Varun\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Varun\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Varun\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-java\2.25.0\selenium-java-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.25.0\selenium-android-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.25.0\selenium-remote-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Varun\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\Varun\.m2\repository\com\google\guava\guava\12.0\guava-12.0.jar;C:\Users\Varun\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.25.0\selenium-chrome-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.25.0\selenium-htmlunit-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-api\2.25.0\selenium-api-2.25.0.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.9\htmlunit-2.9.jar;C:\Users\Varun\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\Varun\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\Varun\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Varun\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpmime\4.1.2\httpmime-4.1.2.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.9\htmlunit-core-js-2.9.jar;C:\Users\Varun\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\Varun\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.15\nekohtml-1.9.15.jar;C:\Users\Varun\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.5\cssparser-0.9.5.jar;C:\Users\Varun\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Varun\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.25.0\selenium-firefox-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\commons-io\commons-io\2.0.1\commons-io-2.0.1.jar;C:\Users\Varun\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.25.0\selenium-ie-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.25.0\selenium-iphone-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.25.0\selenium-safari-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-support\2.25.0\selenium-support-2.25.0.jar;C:\Users\Varun\.m2\repository\org\webbitserver\webbit\0.4.6\webbit-0.4.6.jar;C:\Users\Varun\.m2\repository\org\jboss\netty\netty\3.2.7.Final\netty-3.2.7.Final.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\test-classes;C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\classes;C:\Users\Varun\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\Varun\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Varun\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Varun\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Varun\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Varun\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-java\2.26.0\selenium-java-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.26.0\selenium-android-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.26.0\selenium-remote-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Varun\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\Varun\.m2\repository\com\google\guava\guava\13.0.1\guava-13.0.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.26.0\selenium-chrome-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.26.0\selenium-htmlunit-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-api\2.26.0\selenium-api-2.26.0.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.10\htmlunit-2.10.jar;C:\Users\Varun\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\Varun\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\Varun\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Varun\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpmime\4.2.1\httpmime-4.2.1.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.10\htmlunit-core-js-2.10.jar;C:\Users\Varun\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\Varun\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.16\nekohtml-1.9.16.jar;C:\Users\Varun\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.7\cssparser-0.9.7.jar;C:\Users\Varun\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Varun\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.26.0\selenium-firefox-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\Users\Varun\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.26.0\selenium-ie-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.26.0\selenium-iphone-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.26.0\selenium-safari-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-support\2.26.0\selenium-support-2.26.0.jar;C:\Users\Varun\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\Varun\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -39,11 +39,11 @@
     <property name="java.specification.version" value="1.6"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Varun"/>
-    <property name="java.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\test-classes;C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\classes;C:\Users\Varun\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\Varun\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Varun\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Varun\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Varun\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Varun\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-java\2.25.0\selenium-java-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.25.0\selenium-android-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.25.0\selenium-remote-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Varun\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\Varun\.m2\repository\com\google\guava\guava\12.0\guava-12.0.jar;C:\Users\Varun\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.25.0\selenium-chrome-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.25.0\selenium-htmlunit-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-api\2.25.0\selenium-api-2.25.0.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.9\htmlunit-2.9.jar;C:\Users\Varun\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\Varun\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\Varun\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Varun\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpmime\4.1.2\httpmime-4.1.2.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.9\htmlunit-core-js-2.9.jar;C:\Users\Varun\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\Varun\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.15\nekohtml-1.9.15.jar;C:\Users\Varun\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.5\cssparser-0.9.5.jar;C:\Users\Varun\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Varun\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.25.0\selenium-firefox-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\commons-io\commons-io\2.0.1\commons-io-2.0.1.jar;C:\Users\Varun\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.25.0\selenium-ie-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.25.0\selenium-iphone-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.25.0\selenium-safari-driver-2.25.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-support\2.25.0\selenium-support-2.25.0.jar;C:\Users\Varun\.m2\repository\org\webbitserver\webbit\0.4.6\webbit-0.4.6.jar;C:\Users\Varun\.m2\repository\org\jboss\netty\netty\3.2.7.Final\netty-3.2.7.Final.jar;"/>
+    <property name="java.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\test-classes;C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\classes;C:\Users\Varun\.m2\repository\org\apache\poi\poi\3.8\poi-3.8.jar;C:\Users\Varun\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml\3.8\poi-ooxml-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8\poi-ooxml-schemas-3.8.jar;C:\Users\Varun\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Varun\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Varun\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Varun\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Varun\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-java\2.26.0\selenium-java-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.26.0\selenium-android-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.26.0\selenium-remote-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Varun\.m2\repository\org\json\json\20080701\json-20080701.jar;C:\Users\Varun\.m2\repository\com\google\guava\guava\13.0.1\guava-13.0.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.26.0\selenium-chrome-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.26.0\selenium-htmlunit-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-api\2.26.0\selenium-api-2.26.0.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.10\htmlunit-2.10.jar;C:\Users\Varun\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\Varun\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\Varun\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Varun\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpmime\4.2.1\httpmime-4.2.1.jar;C:\Users\Varun\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.10\htmlunit-core-js-2.10.jar;C:\Users\Varun\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;C:\Users\Varun\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.16\nekohtml-1.9.16.jar;C:\Users\Varun\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.7\cssparser-0.9.7.jar;C:\Users\Varun\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Varun\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpclient\4.2.1\httpclient-4.2.1.jar;C:\Users\Varun\.m2\repository\org\apache\httpcomponents\httpcore\4.2.1\httpcore-4.2.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.26.0\selenium-firefox-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\Users\Varun\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.26.0\selenium-ie-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\Varun\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-iphone-driver\2.26.0\selenium-iphone-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.26.0\selenium-safari-driver-2.26.0.jar;C:\Users\Varun\.m2\repository\org\seleniumhq\selenium\selenium-support\2.26.0\selenium-support-2.26.0.jar;C:\Users\Varun\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\Varun\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_30\jre"/>
-    <property name="sun.java.command" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter7108212738491691685.jar C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire1192088631891336009tmp C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire6875106577722418130tmp"/>
+    <property name="sun.java.command" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter109365771527178096.jar C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire6474292209475589759tmp C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire1150132041015562748tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -51,6 +51,7 @@
     <property name="java.version" value="1.6.0_30"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_30\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Varun\AppData\Local\Google\Chrome\Application\chrome.exe"/>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="localRepository" value="C:\Users\Varun\.m2\repository"/>
     <property name="file.separator" value="\"/>
@@ -60,108 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="183.685" classname="com.varun.test.SeleniumTest.GiftCatalogTest" name="testGCRegularEcardTransaction">
-    <failure message="timeout" type="java.lang.AssertionError">java.lang.AssertionError: timeout
-	at org.junit.Assert.fail(Assert.java:91)
-	at com.varun.test.SeleniumTest.GiftCatalogTest.testGCRegularEcardTransaction(GiftCatalogTest.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:146)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at $Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-</failure>
-    <system-out>@SLTests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.031 sec
-@SLRunning com.varun.test.SeleniumTest.GiftCatalogTest
-</system-out>
-  </testcase>
-  <testcase time="183.689" classname="com.varun.test.SeleniumTest.GiftCatalogTest" name="testGCRegularEcardTransaction">
-    <error message="Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_30&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
-System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_30&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:372)
-	at com.varun.test.SeleniumTest.GiftCatalogTest.tearDown(GiftCatalogTest.java:181)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
-	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:37)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:146)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
-	at java.lang.reflect.Method.invoke(Method.java:597)
-	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
-	at $Proxy0.invoke(Unknown Source)
-	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
-	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7055 refused
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:573)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:425)
-	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
-	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:136)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
-	... 31 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
-	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
-	at java.net.Socket.connect(Socket.java:529)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
-	... 41 more
-</error>
+  <testcase time="0" classname="com.varun.test.SeleniumTest.GiftCatalogTest" name="com.varun.test.SeleniumTest.GiftCatalogTest">
+    <skipped/>
   </testcase>
 </testsuite>
