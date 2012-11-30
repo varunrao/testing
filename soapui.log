@@ -1,20 +1,20 @@
-2012-11-29 23:11:09,322 WARN  [SoapUI] Missing folder [C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\.\ext] for external libraries
-2012-11-29 23:11:09,571 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Varun\soapui-settings.xml]
-2012-11-29 23:11:10,870 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Varun/Documents/workspace-sts-2.9.0.RELEASE/SeleniumTest/src/test/soapui/Google-API-Test-soapui-project.xml]
-2012-11-29 23:11:11,368 INFO  [SoapUITestCaseRunner] Setting project property [YEAR] to [2012]
-2012-11-29 23:11:11,378 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [Google API Test]
-2012-11-29 23:11:11,379 INFO  [SoapUITestCaseRunner] Running Project [Google API Test], runType = SEQUENTIAL
-2012-11-29 23:11:11,406 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
-2012-11-29 23:11:11,412 INFO  [SoapUITestCaseRunner] running step [Get Places - Request 1]
-2012-11-29 23:11:12,113 INFO  [log] 8
-2012-11-29 23:11:12,118 INFO  [log] 5600
-2012-11-29 23:11:12,120 INFO  [log] Tennyson Pkwy
-2012-11-29 23:11:12,121 INFO  [log] Plano
-2012-11-29 23:11:12,121 INFO  [log] Plano
-2012-11-29 23:11:12,122 INFO  [log] Collin
-2012-11-29 23:11:12,122 INFO  [log] Texas
-2012-11-29 23:11:12,122 INFO  [log] United States
-2012-11-29 23:11:12,122 INFO  [log] 75024
-2012-11-29 23:11:12,126 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
-2012-11-29 23:11:12,129 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 245ms, status: FINISHED
-2012-11-29 23:11:12,130 INFO  [SoapUITestCaseRunner] Project [Google API Test] finished with status [FINISHED] in 748ms
+2012-11-30 14:26:45,081 WARN  [SoapUI] Missing folder [C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\.\ext] for external libraries
+2012-11-30 14:26:45,352 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Varun\soapui-settings.xml]
+2012-11-30 14:26:46,431 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Varun/Documents/workspace-sts-2.9.0.RELEASE/SeleniumTest/src/test/soapui/Google-Maps-API-Test-soapui-project.xml]
+2012-11-30 14:26:46,907 INFO  [SoapUITestCaseRunner] Setting project property [YEAR] to [2012]
+2012-11-30 14:26:46,917 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [Google Maps API Test]
+2012-11-30 14:26:46,919 INFO  [SoapUITestCaseRunner] Running Project [Google Maps API Test], runType = SEQUENTIAL
+2012-11-30 14:26:46,949 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
+2012-11-30 14:26:46,956 INFO  [SoapUITestCaseRunner] running step [Get Address info - Request 1]
+2012-11-30 14:26:47,594 INFO  [log] 8
+2012-11-30 14:26:47,599 INFO  [log] 5600
+2012-11-30 14:26:47,601 INFO  [log] Tennyson Pkwy
+2012-11-30 14:26:47,602 INFO  [log] Plano
+2012-11-30 14:26:47,602 INFO  [log] Plano
+2012-11-30 14:26:47,602 INFO  [log] Collin
+2012-11-30 14:26:47,602 INFO  [log] Texas
+2012-11-30 14:26:47,603 INFO  [log] United States
+2012-11-30 14:26:47,603 INFO  [log] 75024
+2012-11-30 14:26:47,608 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2012-11-30 14:26:47,612 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 219ms, status: FINISHED
+2012-11-30 14:26:47,612 INFO  [SoapUITestCaseRunner] Project [Google Maps API Test] finished with status [FINISHED] in 690ms

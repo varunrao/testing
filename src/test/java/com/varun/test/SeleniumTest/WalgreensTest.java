@@ -19,7 +19,6 @@ public class WalgreensTest {
 	private WebDriver driver;
 	private String baseUrl;
 	private StringBuffer verificationErrors = new StringBuffer();
-
 	@Before
 	public void setUp() throws Exception {
 		driver = new FirefoxDriver();
@@ -30,25 +29,15 @@ public class WalgreensTest {
 	@Test
 	public void test() throws Exception {
 		driver.get(baseUrl + "/");
-		driver.findElement(By.cssSelector("a[title=\"Sign In\"] > strong"))
-				.click();
+		driver.findElement(By.cssSelector("a[title=\"Sign In\"] > strong")).click();
 		assertTrue(isElementPresent(By.name("Register")));
 		driver.findElement(By.name("Register")).click();
 		driver.findElement(By.name("submit")).click();
-		assertEquals(
-				"Please enter your first name",
-				driver.findElement(
-						By.cssSelector("#firstnameErrorText > p.nopad"))
-						.getText());
+		assertEquals("Please enter your first name", driver.findElement(By.cssSelector("#firstnameErrorText > p.nopad")).getText());
 		driver.findElement(By.id("firstname")).clear();
-		driver.findElement(By.id("firstname")).sendKeys("dsadsa");
-		driver.findElement(By.name("submit")).click();
+		driver.findElement(By.id("firstname")).sendKeys("varun");
 		// Warning: assertTextNotPresent may require manual changes
-		assertFalse(driver
-				.findElement(By.cssSelector("BODY"))
-				.getText()
-				.matches(
-						"^[\\s\\S]*css=#firstnameErrorText > p\\.nopad[\\s\\S]*$"));
+		assertFalse(driver.findElement(By.cssSelector("BODY")).getText().matches("^[\\s\\S]*css=#firstnameErrorText > p\\.nopad[\\s\\S]*$"));
 	}
 
 	@After

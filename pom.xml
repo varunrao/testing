@@ -64,7 +64,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<projectFile>src/test/soapui/Google-API-Test-soapui-project.xml</projectFile>
+					<projectFile>src/test/soapui/Google-Maps-API-Test-soapui-project.xml</projectFile>
 					<outputFolder>${project.build.directory}/surefire-reports</outputFolder>
 					<junitReport>true</junitReport>
 					<printReport>false</printReport>
