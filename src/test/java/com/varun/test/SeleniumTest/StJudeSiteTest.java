@@ -15,39 +15,41 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.varun.test.selenium.util.LinksHelper;
+
 @Ignore
-public class AvalonSiteTest {
+public class StJudeSiteTest {
 	private WebDriver driver;
 	private String baseUrl;
 	private StringBuffer verificationErrors = new StringBuffer();
+	private LinksHelper linksHelper = new LinksHelper();
 
 	@Before
 	public void setUp() throws Exception {
+		// System.setProperty("webdriver.chrome.driver",
+		// "C:\\Users\\Varun\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+		// driver = new ChromeDriver();
 		driver = new FirefoxDriver();
-		baseUrl = "http://www.avalonconsult.com/";
+		baseUrl = "http://www.stjude.org/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	@Test
 	public void test() throws Exception {
-		driver.get(baseUrl + "/home");
+		driver.get(baseUrl
+				+ "/stjude/v/index.jsp?vgnextoid=f87d4c2a71fca210VgnVCM1000001e0215acRCRD");
+
+		linksHelper.testAllLinks(driver);
 
 		((JavascriptExecutor) driver)
-				.executeScript("jQuery('a[href*=about-us]').mouseover();");
-
-		driver.findElement(By.linkText("Our Leaders")).click();
-		// Warning: assertTextPresent may require manual changes
-		assertTrue(driver.findElement(By.cssSelector("BODY")).getText()
-				.matches("^[\\s\\S]*Tom Reidy[\\s\\S]*$"));
-		// Warning: assertTextPresent may require manual changes
-		assertTrue(driver.findElement(By.cssSelector("BODY")).getText()
-				.matches("^[\\s\\S]*Casey Green[\\s\\S]*$"));
-		// Warning: assertTextPresent may require manual changes
-		assertTrue(driver
-				.findElement(By.cssSelector("BODY"))
-				.getText()
-				.matches(
-						"^[\\s\\S]*Tony Jewitt is Avalon's Vice President of Big Data Solutions[\\s\\S]*$"));
+				.executeScript("jQuery('#headerregion2links').mouseover();");
+		driver.findElement(
+				By.xpath("//a[contains(text(),'A-Z List of Diseases')]"))
+				.click();
+		assertTrue(isElementPresent(By.linkText("AIDS / HIV Vaccine")));
+		driver.findElement(
+				By.xpath("//a[contains(text(),'AIDS / HIV Vaccine')]")).click();
+		// ERROR: Caught exception [ERROR: Unsupported command [isTextPresent]]
 	}
 
 	@After

@@ -1,5 +1,7 @@
 package com.varun.test.SeleniumTest;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
@@ -7,16 +9,13 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-@Ignore
-public class AvalonSiteTest {
+public class WalgreensTest {
 	private WebDriver driver;
 	private String baseUrl;
 	private StringBuffer verificationErrors = new StringBuffer();
@@ -24,30 +23,32 @@ public class AvalonSiteTest {
 	@Before
 	public void setUp() throws Exception {
 		driver = new FirefoxDriver();
-		baseUrl = "http://www.avalonconsult.com/";
+		baseUrl = "http://www.walgreens.com/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	@Test
 	public void test() throws Exception {
-		driver.get(baseUrl + "/home");
-
-		((JavascriptExecutor) driver)
-				.executeScript("jQuery('a[href*=about-us]').mouseover();");
-
-		driver.findElement(By.linkText("Our Leaders")).click();
-		// Warning: assertTextPresent may require manual changes
-		assertTrue(driver.findElement(By.cssSelector("BODY")).getText()
-				.matches("^[\\s\\S]*Tom Reidy[\\s\\S]*$"));
-		// Warning: assertTextPresent may require manual changes
-		assertTrue(driver.findElement(By.cssSelector("BODY")).getText()
-				.matches("^[\\s\\S]*Casey Green[\\s\\S]*$"));
-		// Warning: assertTextPresent may require manual changes
-		assertTrue(driver
+		driver.get(baseUrl + "/");
+		driver.findElement(By.cssSelector("a[title=\"Sign In\"] > strong"))
+				.click();
+		assertTrue(isElementPresent(By.name("Register")));
+		driver.findElement(By.name("Register")).click();
+		driver.findElement(By.name("submit")).click();
+		assertEquals(
+				"Please enter your first name",
+				driver.findElement(
+						By.cssSelector("#firstnameErrorText > p.nopad"))
+						.getText());
+		driver.findElement(By.id("firstname")).clear();
+		driver.findElement(By.id("firstname")).sendKeys("dsadsa");
+		driver.findElement(By.name("submit")).click();
+		// Warning: assertTextNotPresent may require manual changes
+		assertFalse(driver
 				.findElement(By.cssSelector("BODY"))
 				.getText()
 				.matches(
-						"^[\\s\\S]*Tony Jewitt is Avalon's Vice President of Big Data Solutions[\\s\\S]*$"));
+						"^[\\s\\S]*css=#firstnameErrorText > p\\.nopad[\\s\\S]*$"));
 	}
 
 	@After

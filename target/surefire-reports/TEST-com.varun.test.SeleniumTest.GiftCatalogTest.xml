@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.002" errors="0" skipped="1" tests="1" name="com.varun.test.SeleniumTest.GiftCatalogTest">
+<testsuite failures="0" time="0.001" errors="0" skipped="1" tests="1" name="com.varun.test.SeleniumTest.GiftCatalogTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\bin"/>
@@ -19,7 +19,7 @@
     <property name="basedir" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter109365771527178096.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter2437972642904452721.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\Varun\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_30\jre"/>
-    <property name="sun.java.command" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter109365771527178096.jar C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire6474292209475589759tmp C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire1150132041015562748tmp"/>
+    <property name="sun.java.command" value="C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefirebooter2437972642904452721.jar C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire6448300704405120679tmp C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\target\surefire\surefire6682011361521583089tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -51,7 +51,6 @@
     <property name="java.version" value="1.6.0_30"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_30\jre\classes"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\Varun\AppData\Local\Google\Chrome\Application\chrome.exe"/>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="localRepository" value="C:\Users\Varun\.m2\repository"/>
     <property name="file.separator" value="\"/>

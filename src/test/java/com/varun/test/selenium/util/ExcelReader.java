@@ -1,4 +1,4 @@
-package com.varun.test.SeleniumTest;
+package com.varun.test.selenium.util;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

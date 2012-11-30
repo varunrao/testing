@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.varun.test.SeleniumTest.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.018 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.019 sec

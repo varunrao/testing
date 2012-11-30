@@ -1,18 +1,20 @@
-2012-11-18 19:02:47,968 WARN  [SoapUI] Missing folder [C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\.\ext] for external libraries
-2012-11-18 19:02:48,224 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Varun\soapui-settings.xml]
-2012-11-18 19:02:49,158 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Varun/Documents/workspace-sts-2.9.0.RELEASE/SeleniumTest/src/test/soapui/Rest-Demo-soapui-project.xml]
-2012-11-18 19:02:49,703 INFO  [SoapUITestCaseRunner] Setting project property [YEAR] to [2011]
-2012-11-18 19:02:49,718 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [Rest Demo]
-2012-11-18 19:02:49,719 INFO  [SoapUITestCaseRunner] Running Project [Rest Demo], runType = SEQUENTIAL
-2012-11-18 19:02:49,732 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase - Get Places]
-2012-11-18 19:02:49,763 INFO  [SoapUITestCaseRunner] running step [Get Places - Request 1]
-2012-11-18 19:02:50,438 INFO  [log] 7
-2012-11-18 19:02:50,444 INFO  [log] Amphitheatre Pkwy
-2012-11-18 19:02:50,448 INFO  [log] Mountain View
-2012-11-18 19:02:50,448 INFO  [log] Santa Clara
-2012-11-18 19:02:50,448 INFO  [log] California
-2012-11-18 19:02:50,448 INFO  [log] United States
-2012-11-18 19:02:50,449 INFO  [log] 94043
-2012-11-18 19:02:50,453 INFO  [SoapUITestCaseRunner] Assertion [Check Country] has status VALID
-2012-11-18 19:02:50,454 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase - Get Places], time taken: 127ms, status: FINISHED
-2012-11-18 19:02:50,458 INFO  [SoapUITestCaseRunner] Project [Rest Demo] finished with status [FINISHED] in 736ms
+2012-11-29 23:11:09,322 WARN  [SoapUI] Missing folder [C:\Users\Varun\Documents\workspace-sts-2.9.0.RELEASE\SeleniumTest\.\ext] for external libraries
+2012-11-29 23:11:09,571 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Varun\soapui-settings.xml]
+2012-11-29 23:11:10,870 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Varun/Documents/workspace-sts-2.9.0.RELEASE/SeleniumTest/src/test/soapui/Google-API-Test-soapui-project.xml]
+2012-11-29 23:11:11,368 INFO  [SoapUITestCaseRunner] Setting project property [YEAR] to [2012]
+2012-11-29 23:11:11,378 INFO  [SoapUITestCaseRunner] Running soapUI tests in project [Google API Test]
+2012-11-29 23:11:11,379 INFO  [SoapUITestCaseRunner] Running Project [Google API Test], runType = SEQUENTIAL
+2012-11-29 23:11:11,406 INFO  [SoapUITestCaseRunner] Running soapUI testcase [TestCase 1]
+2012-11-29 23:11:11,412 INFO  [SoapUITestCaseRunner] running step [Get Places - Request 1]
+2012-11-29 23:11:12,113 INFO  [log] 8
+2012-11-29 23:11:12,118 INFO  [log] 5600
+2012-11-29 23:11:12,120 INFO  [log] Tennyson Pkwy
+2012-11-29 23:11:12,121 INFO  [log] Plano
+2012-11-29 23:11:12,121 INFO  [log] Plano
+2012-11-29 23:11:12,122 INFO  [log] Collin
+2012-11-29 23:11:12,122 INFO  [log] Texas
+2012-11-29 23:11:12,122 INFO  [log] United States
+2012-11-29 23:11:12,122 INFO  [log] 75024
+2012-11-29 23:11:12,126 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2012-11-29 23:11:12,129 INFO  [SoapUITestCaseRunner] Finished running soapUI testcase [TestCase 1], time taken: 245ms, status: FINISHED
+2012-11-29 23:11:12,130 INFO  [SoapUITestCaseRunner] Project [Google API Test] finished with status [FINISHED] in 748ms
